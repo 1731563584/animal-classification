@@ -147,6 +147,7 @@ weighted avg       0.95      0.95      0.95      8024
 2. **数据处理**：训练集、测试集的压缩文件请放在 `traindata` 和 `testdata` 目录下，并解压。
 3. **训练**：调整训练参数并运行 `train.py` 脚本（在 pre 文件夹下），模型训练完成后，会生成 `model.keras` 文件。
 4. **预测**：根据需要调整 `predict.py` 参数，运行 `predict.py` 脚本。
+
 您也可以直接使用已训练好的模型进行预测，根据需要修改 `predict.py` 参数，并运行 `predict.py` 脚本。
 
 ## 鸣谢
