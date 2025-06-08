@@ -26,7 +26,7 @@ animal-classification/
 
 ## 数据集
 + **来源：**[https://aistudio.baidu.com/datasetdetail/140388/0](https://aistudio.baidu.com/datasetdetail/140388/0)（测试集没有标签，需要自行标注。本项目的解决方案是使用免费大模型 GLM-4V-Flash 配合合适的 prompt 进行标注的。）
-+ **训练集**: 14,246张图片
++ **训练集**: 16,470张图片
 + **测试集**: 8,150张图片
 + **动物类别**: 蝴蝶、猫、鸡、牛、狗、大象、马、蜘蛛、羊、松鼠
 
