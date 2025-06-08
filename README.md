@@ -11,20 +11,21 @@
 ```python
 animal-classification/
 │
-├── traindata/               # 训练数据集
-├── testdata/                # 测试数据集
+├── traindata/               # 训练数据集，包含压缩文件
+├── testdata/                # 测试数据集，包含压缩文件
 ├── pre/                     # 预处理和预测相关文件
 │   ├── train.py  			 # 训练脚本
 │   ├── predict.py			 # 预测脚本
 │   ├── results.json         # 测试集图片序号、真实标签文件
 │	├── train_curves.png	 # 训练过程图
+│	├── model.keras          # 训练好的模型
 │   └── confusion_matrix.png # 预测结果的混淆矩阵图
 ├── requirements.txt         # 项目依赖
 └── README.md                # 项目说明文档
 ```
 
 ## 数据集
-+ **来源：**[https://aistudio.baidu.com/datasetdetail/140388/0](https://aistudio.baidu.com/datasetdetail/140388/0)（测试集没有标签，需要自行标注，本人的解决方案是使用免费大模型 GLM-4V-Flash 配合合适的 promt 进行标注的。）
++ **来源：**[https://aistudio.baidu.com/datasetdetail/140388/0](https://aistudio.baidu.com/datasetdetail/140388/0)（测试集没有标签，需要自行标注，本人的解决方案是使用免费大模型 GLM-4V-Flash 配合合适的 prompt 进行标注的。）
 + **训练集**: 14,246张图片
 + **测试集**: 8,150张图片
 + **动物类别**: 蝴蝶、猫、鸡、牛、狗、大象、马、蜘蛛、羊、松鼠
